@@ -1,0 +1,35 @@
+https://dev.mysql.com/downloads/mysql/       ----download
+https://dev.mysql.com/downloads/workbench/   ----download
+
+====================================================================================
+installation video
+https://drive.google.com/file/d/1lkfbcX8No6ZyZdtbDOcQdTwbC9vyEmFW/view?usp=sharing
+====================================================================================
+cmd prompt commonds
+
+1)mysqld --console --initialize --basedir=E:\MysqlServer --datadir=E:\MysqlData
+
+pass= f9icgp1_iaaZ
+
+2)mysqld --console --datadir=E:\MysqlData
+
+3)mysql.exe -u root -p
+
+4)alter user 'root'@'localhost' identified by 'cdac';
+=====================================================================================
+
+java
+
+vi ~/glassfish6/glassfish/domains/domain1/config/domain.xml
+export CLASSPATH=.:~/glassfish6/glassfish/lib/javaee.jar
+javac -d SimpleWebApp/WEB-INF/classes src/InterestServlet.java
+
+port 8001
+======================================================================================
+wincp
+user--march@2022
+pass--cdac@2022
+
+anonymous
+Cdac@123#
+===========================================================================================
